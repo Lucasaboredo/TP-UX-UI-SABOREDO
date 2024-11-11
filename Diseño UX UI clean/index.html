@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbería y Salón - Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+</head>
+<body>
+     <!-- Encabezado con logo y navegación -->
+     <header class="header">
+        <div class="logo">
+            <img src="images/gloss.svg" alt="Logo" class="logoabajo" />
+        </div>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services 
+                <img src="images/arrow.svg" alt="Logo" class="logoabajo" /> </a>
+            <a href="#">Pricing</a>
+            <a href="#">Appointment</a>
+            <a href="#">Contact</a>
+        </nav>
+        <div class="header-icons">
+            <button class="icon-button">
+                <img src="images/iconos.svg" alt="Logo" class="logoabajo" />
+            </button>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </header>
+    <!-- Sección Hero -->
+    <section class="hero-section">
+    </section>
+</body>
+</html>
+<section class="services">
+    <h2>Our Services</h2>
+    <p>Explore our professional services for haircuts, grooming, and styling</p>
+    <div class="service-cards">
+        <div class="service-card">
+            <img src="images/haircut.svg" alt="haircut" class="icon">
+            <h3>Hair Cut</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/shaver.svg" alt="shaver" class="icon">
+            <h3>Shaving</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/hairdye.svg" alt="hairdye" class="icon">
+            <h3>Hair Dye</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/facial.svg" alt="facial" class="icon">
+            <h3>Facial</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/keratin.svg" alt="keratin" class="icon">
+            <h3>Keratin Treatment</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/hairremoval.svg" alt="hairremoval" class="icon">
+            <h3>Hair Removal</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/hairtreatment.svg" alt="hairtreatment" class="icon">
+            <h3>Hair Treatment</h3>
+        </div>
+        <div class="service-card">
+            <img src="images/wedding.svg" alt="wedding" class="icon">
+            <h3>Wedding Package</h3>
+        </div>
+    </div>
+</section>
+<section id="packages">
+    <h2>Our Packages</h2>
+    <p>Choose the option that fits you the best</p>
+    <div class="package-cards">
+        <!-- Paquete 1 -->
+        <div class="package-card">
+            <h3>Grooming Package</h3>
+            <p class="package-price">$499</p>
+            <ul>
+                <li>Hair Cut of Your Choice</li>
+                <li>Beard Style / Shaving for Men</li>
+                <li>Facial Treatment</li>
+                <li>Hair Treatment / Keratin Treatment Suited for You</li>
+            </ul>
+            <button class="choose-plan">Choose Plan</button>
+        </div>
+
+        <!-- Paquete 2 -->
+        <div class="package-card">
+            <h3>Grooming Package</h3>
+            <p class="package-price">$699</p>
+            <ul>
+                <li>Hair Cut of Your Choice</li>
+                <li>Beard Style / Shaving for Men</li>
+                <li>Facial Treatment</li>
+                <li>Hair Treatment / Keratin Treatment Suited for You</li>
+            </ul>
+            <button class="choose-plan">Choose Plan</button>
+        </div>
+
+        <!-- Paquete 3 -->
+        <div class="package-card">
+            <h3>Wedding Package</h3>
+            <p class="package-price">$799</p>
+            <ul>
+                <li>Hair Cut for Wedding</li>
+                <li>Beard Style / Shaving for Men</li>
+                <li>Facial Treatment </li>
+                <li>Hair Treatment / Keratin Treatment for Wedding</li>
+            </ul>
+            <button class="choose-plan">Choose Plan</button>
+        </div>
+    </div>
+</section>
+
+<section id="appointment">
+    <h2>Make An Appointment</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce condimentum justo sit amet dui feugiat, ut consectetur lacus consectetur.</p>
+    
+    <!-- SVG del Calendario -->
+    <div class="calendar-svg">
+    <img src="images/calendario.svg" alt="calendario" class="calendario"> 
+    </div>
+    
+    <!-- Selección de Hora -->
+    <h3>Select A Time</h3>
+    <div class="time-slots">
+        <button>8:30 am - 9:30 am</button>
+        <button>9:30 am - 10:30 am</button>
+        <button>10:30 am - 11:30 am</button>
+        <button>11:30 am - 12:30 pm</button>
+    </div>
+
+    <!-- Formulario de Cita -->
+    <form class="appointment-form">
+        <input type="text" id="name" name="name" placeholder="Enter Your Name *" required>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email *" required>
+        <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number *" required>
+        <select id="service" name="service" required>
+            <option value="">Select Service</option>
+            <option value="haircut">Haircut</option>
+            <option value="beard-trim">Beard Trim</option>
+            <option value="facial">Facial Treatment</option>
+            <option value="package">Grooming Package</option>
+        </select>
+        <button type="submit" class="appointment-button">Book Appointment</button>
+    </form>
+</section>
+
+<section id="stay-updated">
+    <h2>Stay Updated</h2>
+    <p>Sign up to receive the latest news and updates from us.</p>
+    <div class="subscription-form">
+        <input type="email" placeholder="Enter Your Email" />
+        <button type="submit">Subscribe</button>
+    </div>
+</section>
+
+<footer>
+    <div class="seccion1">
+        <img src="images/gloss.svg" alt="Logo" class="logoabajo" />
+
+        <p class="pseccion1">
+            ESTA PAGINA FUE HECHA POR "Luca Andres Saboredo"
+        </p>
+
+        <div class="redesabajo">
+            <img src="images/facebook.svg" alt="Facebook" />
+            <img src="images/twitter.svg" alt="Twitter" />
+            <img src="images/link.svg" alt="LinkedIn" />
+        </div>
+    </div>
+
+    <div class="seccion2">
+        <h2 class="titulo2">Services</h2>
+        <div class="subtitulos2">
+            <p>Hair Cut</p>
+            <p>Hair Dye</p>
+            <p>Shaving</p>
+            <p>Facial</p>
+            <p>Massage</p>
+        </div>
+    </div>
+
+    <div class="seccion2_1">
+        <h2 class="titulo2_1">Related Links</h2>
+        <div class="subtitulos2_1">
+            <p>About Us</p>
+            <p>Our Blog</p>
+            <p>Pricing</p>
+            <p>Social Links</p>
+            <p>Contact Us</p>
+        </div>
+    </div>
+
+    <div class="seccion2_2">
+        <h2 class="titulo2_2">Terms</h2>
+        <div class="subtitulos2_2">
+            <p>Terms & Conditions</p>
+            <p>Privacy Policy</p>
+            <p>Tax Forms</p>
+            <p>FAQs</p>
+        </div>
+    </div>
+
+    <div class="seccion3">
+        <h2>Contact Us</h2>
+
+        <div class="ubicacion">
+            <img src="images/ubicacion.svg" alt="ubicacion" />
+            <p>523 Main Street, New York</p>
+        </div>
+
+        <div class="telefono">
+            <img src="images/telefono.svg" alt="telefono" />
+            <p>+880 1316-440504</p>
+        </div>
+
+        <div class="correo">
+            <img src="images/correo.svg" alt="correo" />
+            <p>qubenext@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <hr class="separator" />
+        <p>Copyright © 2023 CryptoVault. All Rights Reserved</p>
+    </div>
+</footer>
